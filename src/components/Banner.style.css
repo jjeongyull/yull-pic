@@ -1,0 +1,74 @@
+.main-banner{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 120px;
+}
+.main-img-box, .text-box{
+  width: 50%;
+}
+.text-box{
+  text-align: left;
+}
+.text-box h2{
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-family: "Anton", sans-serif !important;
+}
+.text-box p{
+  word-break: keep-all;
+  line-height: 1.5;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.text-box p span{
+  font-weight: bold;
+  color: #006fab;
+  font-size: 20px;
+  font-family: "Anton", sans-serif !important;
+}
+.main-banner-img{
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.sns-btn-g{
+  width: 100%;
+  display: flex;
+  justify-content: flex;
+  gap: 15px;
+  align-items: center;
+}
+.sns-btn{
+  width: fit-content;
+  padding: 10px 15px;
+  line-height: 1;
+  color: #fff;
+  border-radius: 4px;
+}
+.insta-btn{
+  background-color: #ffffff;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.you-btn{
+  background-color: #000000;
+}
+
+@media screen and (max-width: 780px) {
+  .main-banner{
+    flex-wrap: wrap;
+  }
+  .main-img-box, .text-box{
+    width: 100%;
+  }
+  .main-banner{
+    margin-bottom: 80px;
+  }
+  .text-box p{
+    font-size: 16px;
+  }
+  .text-box p span{
+    font-size: 18px;
+  }
+}
