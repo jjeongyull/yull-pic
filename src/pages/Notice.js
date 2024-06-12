@@ -14,7 +14,7 @@ const Notice = () => {
         <br />
         그 외 제가 진행하는 촬영은<br />
         <span className="no-bold">개인스냅, 커플스냅, 공연 연습사진, 공연사진촬영, 앨범커버촬영</span> 진행합니다.<br />
-        그 외 협업을 원하시면 디엠으로 소통해 주시면 돱니다.<br />
+        그 외 협업을 원하시면 디엠으로 소통해 주시면 됩니다.<br />
 
         <br />
         <span className="no-bold">가격안내</span><br />
@@ -30,8 +30,8 @@ const Notice = () => {
 
       </p>
       <div className="sns-btn-g no-btn">
-          <a className="sns-btn insta-btn" href="#">Instagram</a>
-          <a className="sns-btn you-btn" href="#">Youtube</a>
+        <a className="sns-btn insta-btn" target="_blank" href="https://www.instagram.com/yull_pic?igsh=MWk2ZDQxZWRnaHY1Nw%3D%3D&utm_source=qr">Instagram</a>
+        <a className="sns-btn you-btn" target="_blank" href="https://youtube.com/@user-jb3xf1vl6z?si=SYCrBjlsRvTwOGVF">Youtube</a>
       </div>
     </div>
   )
