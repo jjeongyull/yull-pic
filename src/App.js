@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { useLayoutEffect } from 'react';
 
 import Header from "./Layout/Header";
 import MainPage from "./pages/MainPage";
@@ -8,6 +9,9 @@ import Notice from "./pages/Notice";
 import Footer from "./components/Footer";
 
 function App() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="wrap">
